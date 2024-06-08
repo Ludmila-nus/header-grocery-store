@@ -1,0 +1,30 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+
+    &__login {
+        ul {
+            @include reset-list();
+            gap: 56px;
+
+            .cart {
+                position: relative;
+
+                &::after {
+                    content: '.';
+                    position: absolute;
+                    font-size: 70px;
+                    bottom: 1%;
+                    left: 90%;
+                }
+
+                img {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

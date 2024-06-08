@@ -1,0 +1,30 @@
+.header__nav-principal { ul{
+    @include reset-list();
+    gap: 56px;
+    a{
+        color: $gray;
+        font-weight: 300px;
+        text-decoration: none;
+        text-transform: capitalize;
+        &.uppercase{
+            text-transform: uppercase;
+        }
+        &.active, 
+        &:hover{
+            color: $red;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                height: 2px;
+                background-color: $red;
+                width: 80%;
+                bottom: -10px;
+                left: 10%;
+            }
+        }
+
+    }
+}
+    
+}

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #F38160;
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 16px;
+  background-color: #F38160;
+  color: #ffffff;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.food-type {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  align-items: center;
+  gap: 30px;
+}
+.food-type__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  width: 20%;
+}
+.food-type__item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #403C39;
+}
+.food-type__item p {
+  color: #949494;
+  font-size: 15px;
+}
+
+.header__nav-principal ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+.header__nav-principal ul a {
+  color: #949494;
+  font-weight: 300px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.header__nav-principal ul a.uppercase {
+  text-transform: uppercase;
+}
+.header__nav-principal ul a.active, .header__nav-principal ul a:hover {
+  color: #F38160;
+  position: relative;
+}
+.header__nav-principal ul a.active::after, .header__nav-principal ul a:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #F38160;
+  width: 80%;
+  bottom: -10px;
+  left: 10%;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.header__login ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+.header__login ul .cart {
+  position: relative;
+}
+.header__login ul .cart::after {
+  content: ".";
+  position: absolute;
+  font-size: 70px;
+  bottom: 1%;
+  left: 90%;
+}
+.header__login ul .cart img {
+  width: 25px;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url("../img/man.png");
+  background-repeat: no-repeat;
+  background-position: 80% 20%;
+  background-size: 40%;
+}
+
+.hero {
+  max-width: 50%;
+}
+.hero__header h1 {
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: -2.8px;
+  color: #403C39;
+  margin-bottom: 15px;
+}
+.hero__header h1 span {
+  color: #F38160;
+}
+.hero__header p {
+  max-width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  color: #949494;
+  margin-bottom: 30px;
+}
+.hero__search {
+  display: flex;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.hero__search input {
+  width: 80%;
+  background-color: rgba(208, 208, 210, 0.2509803922);
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.hero__search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  background-color: #F38160;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.hero__search button img {
+  width: 40%;
+}
+.hero__list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+}
+.hero__list ul li {
+  width: 40%;
+  color: #949494;
+  position: relative;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.hero__list ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/icon-check.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
