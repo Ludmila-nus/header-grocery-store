@@ -1,14 +1,15 @@
 
 ![banner](./img/grocery-store-banner.png)
 
-
 ## Description
-This project showcases a modern and responsive web page design using CSS variables (`:root`) and flexbox. The design includes a header with navigation, a hero section with a background image, and a section featuring different articles.
+This project presents a practice header web page design employing CSS techniques such as flexbox and font imports. It encompasses various sections, including a header with navigational links, a hero section featuring engaging content, and a visually appealing list of items.
 
 ## Project Structure
-- **index.html**: Contains the HTML structure of the page, defining the layout and content.
-- **styles.css**: Primary stylesheet responsible for defining the overall page aesthetics, leveraging flexbox for layout structuring. 
 
+- **index.html**: Houses the HTML structure of the webpage, defining the layout and content.
+
+- **styles.css**: Primary CSS file defining the styles of the page, incorporating flexbox for layout structuring.
+Defines visual aspects like font families, colors, and spacing.
 
 
 ## Live Preview 
